@@ -1,5 +1,6 @@
 package com.latihancrud.springbootcrud.entity;
 
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -19,6 +20,6 @@ public class Branch {
     @GeneratedValue
     private int id;
     private String name;
-    private double branchCode;
+    private String branchCode;
     private String address;
 }
